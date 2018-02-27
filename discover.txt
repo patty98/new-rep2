@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="com.silverpop.brandeddomains" content="www.pages03.net,www.discovermagazine.com,blogs.discovermagazine.com,discovermagazine.com" />
+<title>Red Wine Could Yield a Better Toothpaste</title><link rel="stylesheet" href="http://blogs.discovermagazine.com/d-brief/wp-content/themes/discoverblog/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://blogs.discovermagazine.com/d-brief/wp-content/themes/wp-responsive108/style-font.css" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="Shortcut Icon" href="/favicon.ico?ver=3" />
+<link rel="pingback" href="http://blogs.discovermagazine.com/d-brief/xmlrpc.php" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//secure.kalmbach.com/kserv/libs/jquery.backup.js"></script>
+<script type="text/javascript" src="http://blogs.discovermagazine.com/d-brief/wp-content/themes/discoverblog/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="//secure.kalmbach.com/kserv/libs/kserv.min.js"></script>
+
+
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type='text/javascript'>
+    var dfpSlotLeader;
+    var dfpSlotMedium1;
+    var dfpSlotMedium2;
+    var dfpSlotSkyscraper;
+    var dfpSlotSponsor;
+	var dfpSlotExpandingVideo;
+
+    googletag.cmd.push(function () {
+	    
+        //ticket 6080 add expanding add
+	    if ($(window).width() >= 788){
+	    dfpSlotExpandingVideo = googletag.defineSlot('/3004818/DSC-Expnd-Vid', [640, 495], 'div-gpt-ad-1349448567992-5').addService(googletag.pubads()).setTargeting("DSCTarget", "DSC-d-brief");
+		}
+		
+		if ($(window).width() >= 788){
+        dfpSlotLeader = googletag.defineSlot('/3004818/DSC-Leader', [728, 90], 'div-gpt-ad-1349448567992-0').addService(googletag.pubads()).setTargeting("DSCTarget", "DSC-d-brief");
+		}
+		else
+		{
+        dfpSlotLeader = googletag.defineSlot('/3004818/DSC-Mobile', [320, 50], 'div-gpt-ad-1349448567992-0').addService(googletag.pubads()).setTargeting("DSCTarget", "DSC-d-brief");
+		}
+		
+        dfpSlotMedium1 = googletag.defineSlot('/3004818/DSC-Medium1', [300, 250], 'div-gpt-ad-1349448567992-1').addService(googletag.pubads()).setTargeting("DSCTarget", "DSC-d-brief");
+        dfpSlotMedium2 = googletag.defineSlot('/3004818/DSC-Medium2', [300, 250], 'div-gpt-ad-1349448567992-2').addService(googletag.pubads()).setTargeting("DSCTarget", "DSC-d-brief");
+        dfpSlotSkyscraper = googletag.defineSlot('/3004818/DSC-Skyscraper', [160, 600], 'div-gpt-ad-1349448567992-3').addService(googletag.pubads()).setTargeting("DSCTarget", "DSC-d-brief");
+        dfpSlotSponsor = googletag.defineSlot('/3004818/DSC-Sponsor', [80, 40], 'div-gpt-ad-1349448567992-4').addService(googletag.pubads()).setTargeting("DSCTarget", "DSC-d-brief");
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+    });
+</script>
